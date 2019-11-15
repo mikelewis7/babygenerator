@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Alice);
+body, h2 {
+  text-align: center;
+  font-family: 'cambria';
+  vertical-align: middle;
+}
+body {
+    background-image: url("Space.jpg");
+  }
+body {
+  padding-top: 7%;
+}
+h1 {
+  font-size: 2.5em;
+}
+body {
+    color: rgb(201, 192, 192);
+  }
+  
+  h1 {
+    color: rgb(201, 192, 192);
+  }
+
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+
+
+/*returns a random number from 1 to 10 (inclusive)
+function fromOneToTen(){
+    var val = 1;
+    return val;
+}
+
+Write a small function called "randNum" that takes the parameters of "min" and "max" and returns a random integer from 0 to "max" (inclusive).
+function randNum(min,max) {
+    return Math.floor(Math.random() * (max + 1 - min) + min);
+}
+
+function randElem(arr) {
+    return arr[randNum(0, arr.length - 1)];
+}
+
+returns a random element from the passed-in array.
+function randNum(min,max) {
+    return Math.floor(Math.random() * (max + 1 - min) + min);
+}
+
+function randFilteredElem(arr,filter) {
+   var randEl = getRandEl(arr);
+   while (randEl === filter){
+    randEl = getRandEl(arr);
+   }
+   return randEl;
+}
+function getRandEl(arr) {
+    return arr[getRandNum(0, arr.length - 1)];
+}
+
+
+function getRandNum(min,max) {
+    return Math.floor(Math.random() * (max + 1 - min) + min);
+}
